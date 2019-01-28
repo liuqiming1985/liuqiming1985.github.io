@@ -1,0 +1,10 @@
+<div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
+<img src="img/@NAME@" alt="image">
+<a href="img/@NAME@" data-lightbox="image-@NUM@" data-title="@DESC@" class="has-border">
+<span class="icon-search"></span>
+</a>
+<div class="card-body">
+<h5 class="card-title">@TITLE@</h5>
+<p class="card-text">@DESC@</p>
+</div>
+</div>
