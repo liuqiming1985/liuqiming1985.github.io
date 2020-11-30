@@ -2,342 +2,762 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>景腾生物</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Custom Font Icons-->
-    <link rel="stylesheet" href="css/fontastic.css">
-    <!-- lightbox-->
-    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/style.green.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="css/custom.css">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <!-- Favicon-->
-    <script src="js/modernizr.custom.79639.min.js"></script>
-    <!-- Tweaks for older IEs-->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+	<title>黑龙江景腾生物科技有限公司</title>
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+
+
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="农业,农药,水稻,黑龙江,景腾,增产" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Custom Theme files -->
+	<!-- js -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<!-- //js -->
+	<!-- start-smoth-scrolling-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!--//end-smoth-scrolling-->
+	<!--animate-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<link href="css/lightbox.css" type="text/css" rel="stylesheet" media="all">
+	<!--//end-animate-->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 </head>
 
 <body>
-    <div class="page-holder">
-        <header class="header">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <div class="container"><a href="#" class="navbar-brand"> <img src="img/logo.png" alt="Italiano" width="100"></a>
-                    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">导航<i
-                            class="fa fa-align-justify"></i></button>
-                    <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a href="#about" class="nav-link link-scroll">公司简介</a></li>
-                            <li class="nav-item"><a href="#vision" class="nav-link link-scroll">企业愿景</a></li>
-                            <li class="nav-item"><a href="#gallery" class="nav-link link-scroll">主要产品</a></li>
-                            <li class="nav-item"><a href="#contact" class="nav-link link-scroll">联系我们</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-    </div>
+	<!--banner-->
+	<div class="banner">
+		<!--header-->
+		<div class="banner-text">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt="" /></a>
+			</div>
+			<div class="top-nav">
+				<ul class="nav1 cl-effect-1">
+					<li><a href="#about" class="scroll">公司简介</a></li>
+					<li><a href="#products" class="scroll">产品介绍</a></li>
+					<li><a href="#contact" class="scroll">联系方式</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- banner Slider starts Here -->
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			// You can also use "$(window).load(function() {"
+			$(function () {
+				// Slideshow 3
+				$("#slider3").responsiveSlides({
+					auto: true,
+					pager: false,
+					nav: true,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+						$('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+						$('.events').append("<li>after event fired.</li>");
+					}
+				});
+			});
+		</script>
+		<!--//End-slider-script -->
+		<div id="top" class="callbacks_container">
+			<ul class="rslides" id="slider3">
+				<li>
+					<div class="banner2">
+					</div>
+				</li>
+				<li>
+					<div class="banner1">
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--//banner-->
+	<!--about-->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="title">
+				<h3>公司简介</h3>
+				<p>黑龙江景腾生物科技有限公司，是一家集产品研发，生产，销售，技术服务，营销服务为一体的综合农业服务企业，公司致力于为现代农业提供创新高效产品，全程作物解决方案和专业农化服务，帮助用户解决种植过程中的难题，为用户及广大合作伙伴创造价值，并全面支持中国农业的可持续发展，促进农业产业的大丰收！
+				</p>
+			</div>
+			<div class="about-grids">
+				<div class="col-md-6 about-info  wow fadeInLeft animated" data-wow-delay="0.5s"
+					style="visibility: visible; -webkit-animation-delay: 0.5s;">
+					<h4>企业愿景</h4>
+					<ul>
+						<li><a href="#">企业使命：为客户提供最优异的产品方案和最完美的售后服务！</a></li>
+						<li><a href="#">营销理念：携手景腾，强强联盟！</a></li>
+						<li><a href="#">企业定位：抗性杂草的方案提供者，增产增收防病抗虫方案的缔造者！</a></li>
+						<li><a href="#">企业精神：品质铸就产品，科技创造未来！</a></li>
+						<li><a href="#">企业宗旨：用人品做产品，用真诚做服务！</a></li>
+						<li><a href="#">团队理念：同一群人，同一个方向，同一个声音，这是每个人的胜利！</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 about-info  wow fadeInRight animated" data-wow-delay="0.5s"
+					style="visibility: visible; -webkit-animation-delay: 0.5s;">
+					<img src="images/img1.jpg" alt="" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//about-->
+	<div class="slid">
+		<div class="container">
+			<div class="wow fadeInRight animated" data-wow-delay=".5s"
+				style="visibility: visible; -webkit-animation-delay: .5s;">
+				<h3>通过我们的努力，提供更轻松的农业生活</h3>
+			</div>
+		</div>
+	</div>
+	<!--products-->
+	<div class="features" id="products">
+		<div class="container">
 
-    <section id="about" class="about">
-        <div class="container">
-            <header>
-                <h2>公司简介</h2>
-            </header>
-            <p class="lead">黑龙江景腾生物科技有限公司，是一家集产品研发，生产，销售，技术服务，营销服务为一体的综合农业服务企业，公司致力于为现代农业提供创新高效产品，全程作物解决方案和专业农化服务，帮助用户解决种植过程中的难题，为用户及广大合作伙伴创造价值，并全面支持中国农业的可持续发展，促进农业产业的大丰收！</p>
-        </div>
-    </section>
+			<div class="title">
+				<h3>我们的产品</h3>
+			</div>
+			<div class="features-info">
 
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/01.png" alt="根罗"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">根罗</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">肥料</p>
+						</figcaption>
+					</figure>
+				</div>
 
-    <section id="vision" class="vision">
-        <div class="container">
-            <header>
-                <h2>企业愿景</h2>
-            </header>
-            <p class="lead">通过我们的努力，提供更轻松的农业生活！</p>
-            <ul>
-                <li>企业使命：为客户提供最优异的产品方案和最完美的售后服务！</li>
-                <li>营销理念：携手景腾，强强联萌！企业定位：抗性杂草的方案提供者，增产增收防病抗虫方案的缔造者！</li>
-                <li>企业精神：品质铸就产品，科技创造未来！</li>
-                <li>企业宗旨：用人品做产品，用真诚做服务！团队理念：同一群人，同一个方向，同一个声音，这是每个人的胜利！</li>
-            </ul>
-        </div>
-    </section>
+				<div class="col-md-12 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/02.png" alt="根闰组合"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">根闰组合</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">肥料组合</p>
+						</figcaption>
+					</figure>
+				</div>
 
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <header>
-                <h2>主要产品</h2>
-            </header>
-            <div class="gellery">
-                <div class="row">
-                    
-<div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/12元素液体复合肥.jpg" alt="image">
-        <a href="img/12元素液体复合肥.jpg" data-lightbox="image-1" data-title="适用范围：苗床，大田！产品特点：1、采用最先进的生化鳌合方式，完美解决了12元素之间的拮抗问题！2、完美解决了当今农业普遍存在的土壤元素缺乏问题！3、能够达到作物体内12种元素的最佳平衡！4、NDS营养传输系统，帮助营养元素安全，快速，高效的进入叶片和细胞壁内，传输效率能提高300%，确保了营养元素处在最佳的平衡状态！5、2小时作物完全吸收，2小时遇雨无需二次补喷，吸收利用率高达99%！6、解决隐性饥饿！规格：500g、20瓶/件，1000g、10瓶/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">12元素液体复合肥</h5>
-        <p class="card-text">适用范围：苗床，大田！产品特点：1、采用最先进的生化鳌合方式，完美解决了12元素之间的拮抗问题！2、完美解决了当今农业普遍存在的土壤元素缺乏问题！3、能够达到作物体内12种元素的最佳平衡！4、NDS营养传输系统，帮助营养元素安全，快速，高效的进入叶片和细胞壁内，传输效率能提高300%，确保了营养元素处在最佳的平衡状态！5、2小时作物完全吸收，2小时遇雨无需二次补喷，吸收利用率高达99%！6、解决隐性饥饿！规格：500g、20瓶/件，1000g、10瓶/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/久久红.jpg" alt="image">
-        <a href="img/久久红.jpg" data-lightbox="image-2" data-title="防除对象：一年生杂草，产品特点：1,含量高，不含2.4滴丁脂，符合国家标准！2、封杀合一，禾阔双除！3、一桶8亩地，使用方便！用法用量：一桶8亩地！规格：20瓶/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">久久红</h5>
-        <p class="card-text">防除对象：一年生杂草，产品特点：1,含量高，不含2.4滴丁脂，符合国家标准！2、封杀合一，禾阔双除！3、一桶8亩地，使用方便！用法用量：一桶8亩地！规格：20瓶/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/保试达.jpg" alt="image">
-        <a href="img/保试达.jpg" data-lightbox="image-3" data-title="" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">保试达</h5>
-        <p class="card-text"></p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/吉祥如意.jpg" alt="image">
-        <a href="img/吉祥如意.jpg" data-lightbox="image-4" data-title="适用范围：田埂专用，产品特点：本品三元复配，活性高，剂型新，主要通过茎叶吸收传导至整个植株，抑制杂草分生组织生长，从而杀死整株杂草，用于防除水稻田池梗稗草，双穗雀稗，稻李氏禾，陌上菜，空心莲子草，异性莎草，鸭舌草等杂草！用法用量：一套一壶水！规格：100袋/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">吉祥如意</h5>
-        <p class="card-text">适用范围：田埂专用，产品特点：本品三元复配，活性高，剂型新，主要通过茎叶吸收传导至整个植株，抑制杂草分生组织生长，从而杀死整株杂草，用于防除水稻田池梗稗草，双穗雀稗，稻李氏禾，陌上菜，空心莲子草，异性莎草，鸭舌草等杂草！用法用量：一套一壶水！规格：100袋/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/喜鸣.jpg" alt="image">
-        <a href="img/喜鸣.jpg" data-lightbox="image-5" data-title="30%硝•烟•莠去津，产品特点：玉米田一次性年后除草剂，本品由硝磺草铜，莠去津，烟嘧磺隆和胺基盖草铜科学配比而成多元复配玉米苗后专用除草剂，可被杂草的根、茎、叶吸收，并在体内迅速传导，杂草中毒后立即停止生长，新叶退绿，坏死，叶片黄化，卷曲，具有杀草谱广、持效期长，杀草速度快等特点，充分发挥了它们的优点克服它们的不足，能有效防除玉米田常见的禾本科和阔叶杂草，内吸传导，死草彻底，能有效杀死杂草根部，3-10叶期全田喷雾，安全性好，渗透力强，粘着力大，杀草速度快，杂草死根不返青！防治对象: 本品能有效防除玉米田一年生禾本科杂草和阔叶杂草，对莎草科杂草也有一定的防治效果，如自生麦苗，狗尾草，麻果，野糜子，旱稗，马唐，牛筋草，马齿苋，反枝苋，铁苋菜，苍耳，鸭趾草，香附子等特效。产品规格：20瓶/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">喜鸣</h5>
-        <p class="card-text">30%硝•烟•莠去津，产品特点：玉米田一次性年后除草剂，本品由硝磺草铜，莠去津，烟嘧磺隆和胺基盖草铜科学配比而成多元复配玉米苗后专用除草剂，可被杂草的根、茎、叶吸收，并在体内迅速传导，杂草中毒后立即停止生长，新叶退绿，坏死，叶片黄化，卷曲，具有杀草谱广、持效期长，杀草速度快等特点，充分发挥了它们的优点克服它们的不足，能有效防除玉米田常见的禾本科和阔叶杂草，内吸传导，死草彻底，能有效杀死杂草根部，3-10叶期全田喷雾，安全性好，渗透力强，粘着力大，杀草速度快，杂草死根不返青！防治对象: 本品能有效防除玉米田一年生禾本科杂草和阔叶杂草，对莎草科杂草也有一定的防治效果，如自生麦苗，狗尾草，麻果，野糜子，旱稗，马唐，牛筋草，马齿苋，反枝苋，铁苋菜，苍耳，鸭趾草，香附子等特效。产品规格：20瓶/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/噁草·丁草胺.jpg" alt="image">
-        <a href="img/噁草·丁草胺.jpg" data-lightbox="image-6" data-title="" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">噁草·丁草胺</h5>
-        <p class="card-text"></p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/墨菊.jpg" alt="image">
-        <a href="img/墨菊.jpg" data-lightbox="image-7" data-title="产品特点：高效，广谱，速效的拟除菊脂类杀虫剂，杀螨剂，以触杀，胃毒作用为主，抑制昆虫神经轴部位的传导，对昆虫具有趋避，击倒及毒杀作用，杀虫普广，活性较高，药效迅速，喷洒后耐雨水冲刷，对刺吸式口器害虫及螨虫有一定防效！防除对象：潜叶蝇、负泥虫、水稻螟虫、玉米螟、砖石性害虫（水稻钻心虫，稻纵卷叶螟，棉铃虫）地下害虫（蛴螬，蝼蛄，金针虫，地老虎等）规格：20瓶/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">墨菊</h5>
-        <p class="card-text">产品特点：高效，广谱，速效的拟除菊脂类杀虫剂，杀螨剂，以触杀，胃毒作用为主，抑制昆虫神经轴部位的传导，对昆虫具有趋避，击倒及毒杀作用，杀虫普广，活性较高，药效迅速，喷洒后耐雨水冲刷，对刺吸式口器害虫及螨虫有一定防效！防除对象：潜叶蝇、负泥虫、水稻螟虫、玉米螟、砖石性害虫（水稻钻心虫，稻纵卷叶螟，棉铃虫）地下害虫（蛴螬，蝼蛄，金针虫，地老虎等）规格：20瓶/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/大拇哥.jpg" alt="image">
-        <a href="img/大拇哥.jpg" data-lightbox="image-8" data-title="" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">大拇哥</h5>
-        <p class="card-text"></p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/封杀恋.jpg" alt="image">
-        <a href="img/封杀恋.jpg" data-lightbox="image-9" data-title="适用范围：水稻田苗前封闭！产品特点：封杀恋：1、抗性杂草的克星，如稻稗，稻李氏禾，水葱，野慈菇，变异性稗草等！2、本品主要以安全，高效，杀根为基础！3、大豆提取卵磷脂为载体，以表面活化功能为基础，可提高土壤颗粒的透气性和穿透力，更好的增强了杀根的效果和安全性，同时降低下一年杂草基数！5、持效期长达40-50天！防除对象：防除对象：莹蔺（水葱），野慈菇，稗草，稻稗，水白菜，三棱草，稻李氏禾，变异性稗草，双穗雀稗，眼子菜，牛毛草，雨久花，水莎草，马唐，节节菜，野葧芥，水绵等杂草！使用方法：兑水刺溜！规格:20瓶/件×3件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">封杀恋</h5>
-        <p class="card-text">适用范围：水稻田苗前封闭！产品特点：封杀恋：1、抗性杂草的克星，如稻稗，稻李氏禾，水葱，野慈菇，变异性稗草等！2、本品主要以安全，高效，杀根为基础！3、大豆提取卵磷脂为载体，以表面活化功能为基础，可提高土壤颗粒的透气性和穿透力，更好的增强了杀根的效果和安全性，同时降低下一年杂草基数！5、持效期长达40-50天！防除对象：防除对象：莹蔺（水葱），野慈菇，稗草，稻稗，水白菜，三棱草，稻李氏禾，变异性稗草，双穗雀稗，眼子菜，牛毛草，雨久花，水莎草，马唐，节节菜，野葧芥，水绵等杂草！使用方法：兑水刺溜！规格:20瓶/件×3件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/恭喜发财.jpg" alt="image">
-        <a href="img/恭喜发财.jpg" data-lightbox="image-10" data-title="" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">恭喜发财</h5>
-        <p class="card-text"></p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/悠闲自得.jpg" alt="image">
-        <a href="img/悠闲自得.jpg" data-lightbox="image-11" data-title="适用范围：水稻田苗前封闭，产品特点：本品由作用机理不同的两种有效成份配制的混合型除草剂，适用于水稻移栽田防除一年生禾本科，莎草科及部分阔叶杂草，具有以下特点和优点，1、同时具有封草和杀草的效果，持效期长，放心！2、混剂具有增效及互补除草作用，提高除草效果，无忧！3、对水稻安全，安心！4、用药时期较宽，移栽后10-15天均可施药，省心！5、使用方法简单，即可拌肥，又可拌土，或粗滴喷洒，或甩施，省时，省工，节能，方便！防除对象：防除对象：莹蔺（水葱），野慈菇，稗草，稻稗，水白菜，三棱草，稻李氏禾，变异性稗草，双穗雀稗，眼子菜，牛毛草，雨久花，水莎草，马唐，节节菜，野葧芥，水绵等杂草！使用方法：拌土，拌肥，刺溜，甩施都可以！产品规格：20瓶/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">悠闲自得</h5>
-        <p class="card-text">适用范围：水稻田苗前封闭，产品特点：本品由作用机理不同的两种有效成份配制的混合型除草剂，适用于水稻移栽田防除一年生禾本科，莎草科及部分阔叶杂草，具有以下特点和优点，1、同时具有封草和杀草的效果，持效期长，放心！2、混剂具有增效及互补除草作用，提高除草效果，无忧！3、对水稻安全，安心！4、用药时期较宽，移栽后10-15天均可施药，省心！5、使用方法简单，即可拌肥，又可拌土，或粗滴喷洒，或甩施，省时，省工，节能，方便！防除对象：防除对象：莹蔺（水葱），野慈菇，稗草，稻稗，水白菜，三棱草，稻李氏禾，变异性稗草，双穗雀稗，眼子菜，牛毛草，雨久花，水莎草，马唐，节节菜，野葧芥，水绵等杂草！使用方法：拌土，拌肥，刺溜，甩施都可以！产品规格：20瓶/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/正捷.jpg" alt="image">
-        <a href="img/正捷.jpg" data-lightbox="image-12" data-title="产品特点：本品结合了毒死脾与甲维盐的杀虫优势，具有强力触杀，胃毒和内吸作用，有强渗透性，杀虫作用明显，杀卵作用突出，速效性好，持效期长，药剂通过接触和取食进入害虫体内，使细胞功能丧失，扰乱神经传导，害虫接触后即刻停止取食，发生不可逆转的麻痹，24-48小时内达到最高致死率，防雨水冲刷，持效期长，可杀死藏在茎杆中的各种害虫，在叶片持效期30-40天，地下害虫持效期是40-60天！防除对象：防治稻纵卷叶螟，二、三化螟，潜叶蝇，负泥虫，稻水象甲，飞虱，叶蝉，蚜虫，食心虫，卷叶蛾，小菜蛾，介壳虫等！规格：40瓶/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">正捷</h5>
-        <p class="card-text">产品特点：本品结合了毒死脾与甲维盐的杀虫优势，具有强力触杀，胃毒和内吸作用，有强渗透性，杀虫作用明显，杀卵作用突出，速效性好，持效期长，药剂通过接触和取食进入害虫体内，使细胞功能丧失，扰乱神经传导，害虫接触后即刻停止取食，发生不可逆转的麻痹，24-48小时内达到最高致死率，防雨水冲刷，持效期长，可杀死藏在茎杆中的各种害虫，在叶片持效期30-40天，地下害虫持效期是40-60天！防除对象：防治稻纵卷叶螟，二、三化螟，潜叶蝇，负泥虫，稻水象甲，飞虱，叶蝉，蚜虫，食心虫，卷叶蛾，小菜蛾，介壳虫等！规格：40瓶/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/熵茂.jpg" alt="image">
-        <a href="img/熵茂.jpg" data-lightbox="image-13" data-title="" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">熵茂</h5>
-        <p class="card-text"></p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/禾谷丰.jpg" alt="image">
-        <a href="img/禾谷丰.jpg" data-lightbox="image-14" data-title="适用范围：水稻田苗前封闭，产品特点：本品主要针对东北抗性杂草（稻稗、水葱、慈姑）研制的水溶膜剂，以安全、高效、省工为基础，结合了大豆提取植物源为载体，可提高土壤颗粒的透气性和穿透力，更好的增强了杀根的效果和安全性，同时降低下一年的杂草基数，本品加入MON-7400后可显著提高对水稻秧苗的安全性，克服了东北地区用药时低温，持效期短的不利因素，同时还能提高对抗性杂草的防除效果，增加了除草剂的吸收、运转和减少对除草剂的降解！防除对象：防除对象：稗草，稻稗，莹蔺（水葱），野慈菇，水白菜，三棱草，变异性稗草，双穗雀稗，眼子菜，牛毛草，雨久花，水莎草，马唐，节节菜，野葧芥，水绵等杂草！使用方法：直接抛撒，产品规格：24盒/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">禾谷丰</h5>
-        <p class="card-text">适用范围：水稻田苗前封闭，产品特点：本品主要针对东北抗性杂草（稻稗、水葱、慈姑）研制的水溶膜剂，以安全、高效、省工为基础，结合了大豆提取植物源为载体，可提高土壤颗粒的透气性和穿透力，更好的增强了杀根的效果和安全性，同时降低下一年的杂草基数，本品加入MON-7400后可显著提高对水稻秧苗的安全性，克服了东北地区用药时低温，持效期短的不利因素，同时还能提高对抗性杂草的防除效果，增加了除草剂的吸收、运转和减少对除草剂的降解！防除对象：防除对象：稗草，稻稗，莹蔺（水葱），野慈菇，水白菜，三棱草，变异性稗草，双穗雀稗，眼子菜，牛毛草，雨久花，水莎草，马唐，节节菜，野葧芥，水绵等杂草！使用方法：直接抛撒，产品规格：24盒/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/莎稗磷.jpg" alt="image">
-        <a href="img/莎稗磷.jpg" data-lightbox="image-15" data-title="适用范围：水稻田苗前苗后封闭！产品特点：进口原药，安全高效，莎稗磷为有机磷类内吸传导型选择性除草剂，主要通过植物的幼芽和幼小的地中茎吸收，抑制杂草体内细胞分裂与伸长，对正在萌发的杂草效果最好，杂草受害后生长停滞，叶片深绿，有时褪色，叶片变短而厚，极易折断，芯叶不易抽出，最后整株枯死，持效期30天左右，莎稗磷在土壤中被微生物降解，对后茬作物安全。防除对象：主要用于水稻移栽田防除3叶期以前的稗草、千金子、一年生莎草、牛毛草等，对阔叶杂草效果差！产品规格：40瓶/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">莎稗磷</h5>
-        <p class="card-text">适用范围：水稻田苗前苗后封闭！产品特点：进口原药，安全高效，莎稗磷为有机磷类内吸传导型选择性除草剂，主要通过植物的幼芽和幼小的地中茎吸收，抑制杂草体内细胞分裂与伸长，对正在萌发的杂草效果最好，杂草受害后生长停滞，叶片深绿，有时褪色，叶片变短而厚，极易折断，芯叶不易抽出，最后整株枯死，持效期30天左右，莎稗磷在土壤中被微生物降解，对后茬作物安全。防除对象：主要用于水稻移栽田防除3叶期以前的稗草、千金子、一年生莎草、牛毛草等，对阔叶杂草效果差！产品规格：40瓶/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/豆朵朵.jpg" alt="image">
-        <a href="img/豆朵朵.jpg" data-lightbox="image-16" data-title="产品特点：本品是由氟磺胺草醚，精喹禾灵和异噁草松混配的三元复配除草剂，融合三种大豆田苗后除草剂的优点，经过合理配比加工而成，更适合东北地区春大豆田使用，正常使用技术条件下可有效防除春大豆田一年生杂草，加入特效助剂，对兰花菜，刺儿菜，苣荬菜，狗尾草，绿狗尾草等特效！防除对象：稗草，谷莠子，金狗尾草，马唐，野燕麦，牛筋草，等，阔叶杂草，灰菜，苍耳，反枝苋，龙葵，风花菜，野苏子，狼巴草，兰花菜，麻果，马齿苋，猪毛菜等多年生杂草！规格，20瓶/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">豆朵朵</h5>
-        <p class="card-text">产品特点：本品是由氟磺胺草醚，精喹禾灵和异噁草松混配的三元复配除草剂，融合三种大豆田苗后除草剂的优点，经过合理配比加工而成，更适合东北地区春大豆田使用，正常使用技术条件下可有效防除春大豆田一年生杂草，加入特效助剂，对兰花菜，刺儿菜，苣荬菜，狗尾草，绿狗尾草等特效！防除对象：稗草，谷莠子，金狗尾草，马唐，野燕麦，牛筋草，等，阔叶杂草，灰菜，苍耳，反枝苋，龙葵，风花菜，野苏子，狼巴草，兰花菜，麻果，马齿苋，猪毛菜等多年生杂草！规格，20瓶/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/铜高尚.jpg" alt="image">
-        <a href="img/铜高尚.jpg" data-lightbox="image-17" data-title="适用范围：水稻苗床绵腐病，大田稻曲病，稻瘟病，细菌性条斑病，白叶枯，纹枯病！产品特点：1、广谱高效：用量钱，即杀真菌又杀病菌，“一药多治”！2、混配性好：高科技中性制剂，可与多数农药混用！3、安全高效：对作物安全，无机铜制剂中安全的产品！4、剂型先进：在容器内2年内不产生沉淀，叶面覆盖率高，使用剂量低，铜高尚喷雾可以均匀细密地覆盖到作物表面上，使之与外界病菌绝缘，并杀死已经生成的病菌！用法用量：1、先将铜高尚100毫升稀释成母液，然后再倒入水中复配成20-30公斤药液，（200平方米苗床用量）进行大水量喷淋，要求全苗床均匀用药，以上午9点钟之前用药为宜！2、在作物发病之前或初期开始用药！3、水稻破口前一周左右正常量使用一次，如：病害发生严重，齐穗期再用药一次，避开杨花抽穗期使用！4、不宜在刚下过雨后施药，适宜在下午4点后喷雾，高温时请适用降低使用浓度！产品规格：50ml×100瓶/件，200ml×25瓶/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">铜高尚</h5>
-        <p class="card-text">适用范围：水稻苗床绵腐病，大田稻曲病，稻瘟病，细菌性条斑病，白叶枯，纹枯病！产品特点：1、广谱高效：用量钱，即杀真菌又杀病菌，“一药多治”！2、混配性好：高科技中性制剂，可与多数农药混用！3、安全高效：对作物安全，无机铜制剂中安全的产品！4、剂型先进：在容器内2年内不产生沉淀，叶面覆盖率高，使用剂量低，铜高尚喷雾可以均匀细密地覆盖到作物表面上，使之与外界病菌绝缘，并杀死已经生成的病菌！用法用量：1、先将铜高尚100毫升稀释成母液，然后再倒入水中复配成20-30公斤药液，（200平方米苗床用量）进行大水量喷淋，要求全苗床均匀用药，以上午9点钟之前用药为宜！2、在作物发病之前或初期开始用药！3、水稻破口前一周左右正常量使用一次，如：病害发生严重，齐穗期再用药一次，避开杨花抽穗期使用！4、不宜在刚下过雨后施药，适宜在下午4点后喷雾，高温时请适用降低使用浓度！产品规格：50ml×100瓶/件，200ml×25瓶/件</p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/铜高尚2.jpg" alt="image">
-        <a href="img/铜高尚2.jpg" data-lightbox="image-18" data-title="" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">铜高尚2</h5>
-        <p class="card-text"></p>
-        </div>
-        </div>
-        
-        <div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
-        <img src="img/闲一夏.jpg" alt="image">
-        <a href="img/闲一夏.jpg" data-lightbox="image-19" data-title="适用范围：水稻田苗后封闭，产品特点：本品为六元复配内吸传导型除草剂，全新技术，全新配方，封杀无遗漏点，用药后，可在水中迅速崩解扩散，通过植物的幼芽、地中茎和根部吸收，转移到杂草各部，抑制杂草生长点细胞分裂与伸长，最后造成植株死亡，对正在萌发的杂草效果最好，DF剂型是目前农药行业技术含量最高的剂型之一，集成了水分散粒剂和悬浮剂两者的技术优势，悬浮率达到95%以上，用药后可直接渗入作物表体，可提高20%左右的药效，有助于药剂对抗性杂草的吸收和渗透，能使水稻田一次用药，恶性杂草，彻底根除的效果！防除对象：防除对象：莹蔺（水葱），野慈菇，稗草，稻稗，水白菜，三棱草，稻李氏禾，变异性稗草，双穗雀稗，眼子菜，牛毛草，雨久花，水莎草，马唐，节节菜，野葧芥，水绵等杂草！使用方法：拌土，拌肥！产品规格：16袋/件" class="has-border">
-        <span class="icon-search"></span>
-        </a>
-        <div class="card-body">
-        <h5 class="card-title">闲一夏</h5>
-        <p class="card-text">适用范围：水稻田苗后封闭，产品特点：本品为六元复配内吸传导型除草剂，全新技术，全新配方，封杀无遗漏点，用药后，可在水中迅速崩解扩散，通过植物的幼芽、地中茎和根部吸收，转移到杂草各部，抑制杂草生长点细胞分裂与伸长，最后造成植株死亡，对正在萌发的杂草效果最好，DF剂型是目前农药行业技术含量最高的剂型之一，集成了水分散粒剂和悬浮剂两者的技术优势，悬浮率达到95%以上，用药后可直接渗入作物表体，可提高20%左右的药效，有助于药剂对抗性杂草的吸收和渗透，能使水稻田一次用药，恶性杂草，彻底根除的效果！防除对象：防除对象：莹蔺（水葱），野慈菇，稗草，稻稗，水白菜，三棱草，稻李氏禾，变异性稗草，双穗雀稗，眼子菜，牛毛草，雨久花，水莎草，马唐，节节菜，野葧芥，水绵等杂草！使用方法：拌土，拌肥！产品规格：16袋/件</p>
-        </div>
-        </div>
-        
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Gallery Section-->
-    <!-- Contact Section-->
-    <!-- <section id="contact" class="contact">
-        <div id="map"></div>
-        <div class="container text-center">
-            <div class="form-holder">
-                <header>
-                    <h2>Contact Us</h2>
-                    <h3>Feel free to contact us</h3>
-                </header>
-                <form id="contact-form" method="get" action="#">
-                    <div class="row">
-                        <label for="user-name" class="col-md-6 unique">Name
-                            <input id="user-name" type="text" name="username" required="">
-                        </label>
-                        <label for="user-email" class="col-md-6 unique">Email
-                            <input id="user-email" type="email" name="useremail" required="">
-                        </label>
-                        <label for="message" class="col-md-12 unique">Your Message
-                            <textarea id="message" name="message" required=""></textarea>
-                        </label>
-                        <div class="col-md-12">
-                            <button id="submit" type="submit" class="btn btn-unique">Send</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Booking Section-->
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/03.png" alt="大禾赞"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">大禾赞</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀虫剂</p>
+						</figcaption>
+					</figure>
+				</div>
 
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/04.png" alt="9%高氯.噻虫嗪"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">9%高氯.噻虫嗪</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀虫剂</p>
+						</figcaption>
+					</figure>
+				</div>
 
-    <!-- scroll top btn-->
-    <div id="scrollTop" class="btn-unique"><i class="fa fa-angle-up"></i></div>
-    <!-- end scroll top btn-->
-    <!-- JavaScript files-->
-    <script src="vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="vendor/popper.js/umd/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
-    <script src="js/front.js"></script>
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/05.png" alt="铜高尚"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">铜高尚</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/06.png" alt="共闰"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">共闰</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/07.png" alt="保试达"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">保试达</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-12 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/08.png" alt="蓝盾"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">蓝盾</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂组合</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/09.png" alt="蓝盾"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">蓝盾</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/10.png" alt="弗雷奥"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">弗雷奥</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/11.png" alt="封杀恋"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">封杀恋</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/12.png" alt="古昆"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">古昆</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/13.png" alt="禾谷丰"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">禾谷丰</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/14.png" alt="中农福获"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">中农福获</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/15.png" alt="福展 丙炔.松.沙"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">福展 丙炔.松.沙</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/16.png" alt="水溶膜 禾谷丰 噁草.丁草胺"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">水溶膜 禾谷丰 噁草.丁草胺</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/17.png" alt="水溶膜 禾谷丰 高氯.毒死婢"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">水溶膜 禾谷丰 高氯.毒死婢</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀虫剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-12 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/18.png" alt="隆义晟"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">隆义晟</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂组合</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-12 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/19.png" alt="封杀恋"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">封杀恋</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂组合</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-12 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/20.png" alt="悠闲自得"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">悠闲自得</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂组合</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-12 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/21.png" alt="乔炫"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">乔炫</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">苗前封闭组合</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/22.png" alt="闲一夏"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">闲一夏</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/23.png" alt="景闲一夏"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">景闲一夏</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/24.png" alt="福展 苄嘧.苯噻酰"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">福展 苄嘧.苯噻酰</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-12 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/25.png" alt="拜阔全拿"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">拜阔全拿</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂组合</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/26.png" alt="甲美灵"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">甲美灵</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">液肥</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/27.png" alt="倍加绿 磷酸二氢钾"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">倍加绿 磷酸二氢钾</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">肥料</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/28.png" alt="补丰"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">补丰</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">肥料</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/29.png" alt="秀威"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">秀威</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">肥料</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/30.png" alt="福获 苯唑.莠去津"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">福获 苯唑.莠去津</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂 </p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/31.png" alt="喜鸣"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">喜鸣</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/32.png" alt="恭喜发财"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">恭喜发财</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/33.png" alt="62%草甘膦异丙铵盐"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">62%草甘膦异丙铵盐</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/34.png" alt="32%滴酸草甘膦"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">32%滴酸草甘膦</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/35.png" alt="墨菊"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">墨菊</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀虫剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/36.png" alt="5%高氯.甲维盐"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">5%高氯.甲维盐</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀虫剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/37.png" alt="安绿宝 10%氯氰菊酯"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">安绿宝 10%氯氰菊酯</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀虫剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/38.png" alt="2甲.灭草松"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">2甲.灭草松</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/39.png" alt="豆朵朵"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">豆朵朵</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">除草剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/40.png" alt="苯甲. 丙环唑"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">苯甲. 丙环唑</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/41.png" alt="唑醚.氟环唑"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">唑醚.氟环唑</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/42.png" alt="表芸苔素内酯"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">表芸苔素内酯</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">植物生长调节剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/43.png" alt="苯甲.丙环唑"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">苯甲.丙环唑</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/44.png" alt="25%吡唑嘧菌酯"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">25%吡唑嘧菌酯</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-6 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/45.png" alt="扩润 25%吡唑醚菌酯"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">扩润 25%吡唑醚菌酯</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-md-12 features-grids wow bounceIn animated" data-wow-delay=".5s"
+					style="visibility: visible; -webkit-animation-delay: .5s;">
+					<figure class="effect-bubba" style="text-align: -webkit-center;    background-color: #f7f7f7;">
+						<img src="images/products/46.png" alt="盈科雷 水稻防病增产套餐"
+							style="width:auto;height:auto;max-width:100%;max-height:600px;" />
+						<figcaption>
+							<h4 style="font-size: 50px;    font-weight: 800;    color: #150202;">盈科雷 水稻防病增产套餐</h4>
+							<p style="font-size: 24px;    font-weight: 600;    color:#484242;">杀菌剂组合</p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+		</div>
+	</div>
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="title">
+				<h3>联系我们</h3>
+			</div>
+			<div class="contact-grids">
+				<div class="col-md-4 address wow fadeInLeft animated" data-wow-delay="0.5s"
+					style="visibility: visible; -webkit-animation-delay: 0.5s;">
+					<h4>联系方式</h4>
+					<p class="cnt-p">地址： 哈尔滨市道外区长江路1606号</p>
+					<p>手机： 13803643522
+					</p>
+					<p>网址： www.jingtengshengwu.com</p>
+					<p>邮箱：<a href="mailto:3518893763@qq.com">3518893763@qq.com</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//contact-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<p class="wow bounceIn animated" data-wow-delay=".5s"
+				style="visibility: visible; -webkit-animation-delay: .5s;"></a></p>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"> </script>
+	<script src="js/lightbox.min.js"> </script>
 </body>
 
 </html>

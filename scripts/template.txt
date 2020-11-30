@@ -1,0 +1,21 @@
+<div class="card item col-lg-3 col-md-4 col-sm-6 col-12">
+<img src="img/@NAME@" alt="image">
+<a href="img/@NAME@" data-lightbox="image-@NUM@" data-title="@DESC@" class="has-border">
+<span class="icon-search"></span>
+</a>
+<div class="card-body">
+<h5 class="card-title">@TITLE@</h5>
+<p class="card-text">@DESC@</p>
+</div>
+</div>
+
+
+<div class="col-md-4 features-grids wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+    <figure class="effect-bubba">
+        <img src="images/img2.jpg" alt=""/>
+        <figcaption>
+            <h4>Enimet pulvinar posuere</h4>
+            <p>In sit amet sapien eros Integer dolore magna aliqua</p>	
+        </figcaption>			
+    </figure>		
+</div>
