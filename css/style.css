@@ -42,12 +42,12 @@ body a:hover{
 }
 .banner1 {
   min-height: 700px;
-  background: url(http://49.235.249.146/images/banner.jpg)no-repeat 0px 0px;
+  background: url(images/banner.jpg)no-repeat 0px 0px;
   background-size: cover;
 }
 .banner2 {
   min-height: 700px;
-  background: url(http://49.235.249.146/images/banner1.jpg)no-repeat 0px -114px;
+  background: url(images/banner1.jpg)no-repeat 0px -114px;
   background-size: cover;
 }
 .banner-text {
@@ -458,7 +458,7 @@ ul.social-slide li i.mac{
 }
 /*--//service--*/
 .slid{
-	background:url(http://49.235.249.146/images/slid.jpg)no-repeat 0px 0px;
+	background:url(images/slid.jpg)no-repeat 0px 0px;
 	background-size:cover;
 }
 .slid h3 {
