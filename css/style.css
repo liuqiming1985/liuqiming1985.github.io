@@ -10,11 +10,11 @@ body{
 }
 @font-face {
       font-family: 'Roboto-Regular';
-      src: url(fonts/Roboto-Regular.ttf) format('truetype');
+      src: url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 @font-face {
       font-family: 'Marvel-Regular';
-      src: url(fonts/Marvel-Regular.ttf) format('truetype');
+      src: url(../fonts/Marvel-Regular.ttf) format('truetype');
 }
 body a{
 	transition: 0.5s all ease;
@@ -42,12 +42,12 @@ body a:hover{
 }
 .banner1 {
   min-height: 700px;
-  background: url(images/banner.jpg)no-repeat 0px 0px;
+  background: url(../images/banner.jpg)no-repeat 0px 0px;
   background-size: cover;
 }
 .banner2 {
   min-height: 700px;
-  background: url(images/banner1.jpg)no-repeat 0px -114px;
+  background: url(../images/banner1.jpg)no-repeat 0px -114px;
   background-size: cover;
 }
 .banner-text {
@@ -211,7 +211,7 @@ body a:hover{
   text-decoration: none;
   height: 40px;
   width: 40px;
-  background: transparent url("../images/icons.png") no-repeat 0px 0px;
+  background: transparent url(../images/icons.png) no-repeat 0px 0px;
 }
 .callbacks_nav:active {
   opacity: 1.0;
@@ -458,7 +458,7 @@ ul.social-slide li i.mac{
 }
 /*--//service--*/
 .slid{
-	background:url(images/slid.jpg)no-repeat 0px 0px;
+	background:url(../images/slid.jpg)no-repeat 0px 0px;
 	background-size:cover;
 }
 .slid h3 {
@@ -826,7 +826,7 @@ p.cnt-p {
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/move-up.png") no-repeat 0px 0px;
+	background: url(../images/move-up.png) no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;
